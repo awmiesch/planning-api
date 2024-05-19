@@ -1,0 +1,55 @@
+[
+    {
+      "MemberId": 1,
+      "Code": "",
+      "Name": "IC Segment Main",
+      "RollupOperator": "~",
+      "MemberType": "ConsolMember",
+      "ActiveStatus": "Inactive",
+      "Sort": 1,
+      "ParentId": 0,
+      "ParentCode": "",
+      "Attributes": null,
+      "RollupLevels": null
+    },
+    {
+      "MemberId": 10,
+      "Code": "Default",
+      "Name": "",
+      "RollupOperator": "+",
+      "MemberType": "LeafMember",
+      "ActiveStatus": "Active",
+      "Sort": 2,
+      "ParentId": 1,
+      "ParentCode": "IC Segment Main",
+      "Attributes": null,
+      "RollupLevels": [
+        {
+          "Id": 1,
+          "Code": "",
+          "Name": "IC Segment Main",
+          "Level": 1
+        }
+      ]
+    },
+    {
+      "MemberId": 90,
+      "Code": "",
+      "Name": "IC SubAccounts",
+      "RollupOperator": "+",
+      "MemberType": "ConsolMember",
+      "ActiveStatus": "Inactive",
+      "Sort": 3,
+      "ParentId": 1,
+      "ParentCode": "IC Segment Main",
+      "Attributes": null,
+      "RollupLevels": [
+        {
+          "Id": 1,
+          "Code": "",
+          "Name": "IC Segment Main",
+          "Level": 1
+        }
+      ]
+    }
+  ]
